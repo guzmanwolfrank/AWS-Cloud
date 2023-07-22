@@ -1,7 +1,7 @@
 To run this script, you will need to install the AWS CLI and Python. Once you have installed the dependencies, you can run the script by executing the following command:
 
 
-    python create_and_upload_website.py
+    python YOURPROGRAMNAME.py
 
 
 
