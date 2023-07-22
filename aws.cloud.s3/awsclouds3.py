@@ -1,6 +1,13 @@
 import pandas as pd
 import boto3
 
+
+# Get the AWS CLI configuration
+config = boto3.config.Config(region_name="us-east-1",
+                            aws_access_key_id="YOUR_ACCESS_KEY_ID",
+                            aws_secret_access_key="YOUR_SECRET_ACCESS_KEY")
+
+
 # Get the AWS CLI configuration
 config = boto3.config.Config(region_name="us-east-1")
 
