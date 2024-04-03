@@ -39,7 +39,7 @@ This project aims to analyze healthcare data to gain insights into patient demog
 
 ## SQL Queries
 
-![carbon (2)](https://github.com/guzmanwolfrank/AWS-Cloud/assets/29739578/93acc4ee-7b90-41ba-b275-468e41783076)
+![sqlsample](https://github.com/guzmanwolfrank/AWS-Cloud/assets/29739578/a12ac966-f369-4e05-a78e-f94d0ef12cbe)
 
 
 ## Data Dictionary
