@@ -39,47 +39,6 @@ This project aims to analyze healthcare data to gain insights into patient demog
 
 ## SQL Queries
 
-Write SQL queries to analyze the healthcare data using Amazon Athena. Sample queries could include:
-
-- Total billing amount per hospital.
-
-SELECT Hospital, SUM(Billing_Amount) AS Total_Billing_Amount
-FROM YourTableName
-GROUP BY Hospital;
-
-
-- Average age of patients by gender.
-
-SELECT Gender, AVG(Age) AS Average_Age
-FROM YourTableName
-GROUP BY Gender;
-
-
-
-- Most common medical conditions.
-
-SELECT Medical_Condition, COUNT(*) AS Condition_Count
-FROM YourTableName
-GROUP BY Medical_Condition
-ORDER BY Condition_Count DESC
-LIMIT 5; -- You can adjust the limit to show more or fewer conditions
-
-
-
-- Length of hospital stay.
-
-SELECT Name, DATEDIFF(day, Date_of_Admission, Discharge_Date) AS Length_of_Stay
-FROM YourTableName;
-
-
-
-- Top medications prescribed.
-
-SELECT Medication, COUNT(*) AS Prescription_Count
-FROM YourTableName
-GROUP BY Medication
-ORDER BY Prescription_Count DESC
-LIMIT 5; -- You can adjust the limit to show more or fewer medications
 
 
 ## Data Dictionary
