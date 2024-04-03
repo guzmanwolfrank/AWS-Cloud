@@ -83,9 +83,7 @@ Summarize the key findings and insights gained from the analysis. Discuss potent
 - AWS Glue
 - Amazon S3
 
-## Badges
 
-Include badges to indicate project status, version, license, etc. (optional)
 
 ## License
 
